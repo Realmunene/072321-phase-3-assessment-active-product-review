@@ -22,8 +22,8 @@ puts "Creating reviews..."
 # * and a review belongs to an user.                              *
 # *****************************************************************
 # Create Reviews Here
-review1 =Review.create(comment: "This is a great product!", star_rating: 5, user_id: user1.id, product_id: product1.id)
-review2 =Review.create(comment: "This is a great product!", star_rating: 5, user_id: user2.id, product_id: product2.id)
-review3 =Review.create(comment: "This is a great product!", star_rating: 5, user_id: user3.id, product_id: product3.id)
-review4 =Review.create(comment: "This is a great product!", star_rating: 5, user_id: user1.id, product_id: product4.id)
+review1 =Review.create(comment: "Great product!", star_rating: 10, user_id: user_id:1, product_id: 1)
+review2 =Review.create(comment: "Great product!", star_rating: 5, user_id: user_id:2, product_id: 1)
+review3 =Review.create(comment: "Great product!", star_rating: 7, user_id: user_id:3, product_id: 3)
+review4 =Review.create(comment: "Great product!", star_rating: 7, user_id: user_id:4, product_id: 3)
 puts "Seeding done!"
